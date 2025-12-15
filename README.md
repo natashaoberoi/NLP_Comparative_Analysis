@@ -38,5 +38,7 @@ drive.mount('/content/drive')
 ```
 Update the directory paths in the notebook so it points to your Google Drive copy of the Github contents. You may run the entire notebook end-to-end, or start from any task as long as the relevant saved results file is available.
 
+Change Colab runtime to use T4 or A100 GPU before running the code, especially for LLM and coreference tasks.
+
 ## Outputs
 All processed datasets and analysis outputs are saved to CSV or JSON files so the workflow can be reproduced, resumed, and inspected without re-running earlier steps. This is especially helpful for steps that involve models or LLM inference.
