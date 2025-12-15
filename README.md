@@ -2,7 +2,7 @@
 
 This repository contains the full pipeline for **NLP Homework 5**, which analyzes how four major U.S. news outlets describe shooters and victims in gun-violence reporting. The workflow includes coreference resolution, descriptive phrase extraction, semantic clustering, manual evaluation, cross-outlet frequency analysis, and chi-square hypothesis testing.
 
-All code is designed to be run in **Google Colab**.
+All code is designed to be run in **Google Colab** on a GPU.
 
 
 ## Repository Structure
